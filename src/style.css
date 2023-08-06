@@ -1,0 +1,46 @@
+body{
+    background-color:#F4F6F6;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    /* Set the minimum height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white !important;
+    margin-top: 0;
+}
+.Nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.main-content{
+    flex: 1;
+}
+
+.Nav-items li {
+    padding:10px;
+}
+
+.img{
+    width: 60px;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    width: 100%;
+    padding:0;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.ftc{
+    padding: 10px;
+}
